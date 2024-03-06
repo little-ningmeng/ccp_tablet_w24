@@ -245,6 +245,18 @@ p.intro {
     font-size: 15px;
 }
 
+#canyon > img {
+    width: 100%;
+}
+
+#shanghai > img {
+    width: 100%;
+}
+
+#niagara > img {
+    width: 100%;
+}
+
 @media only screen and (min-width: 800px) {
     div.pet-grid-container {
         grid-template-columns: 1fr 1fr 1fr 1fr;
