@@ -11,9 +11,6 @@ body {
 [class*="col-"] {
     float: left;
     padding: 15px;
-}
-
-[class*="col-"] {
     width: 100%;
 }
 
@@ -166,6 +163,112 @@ li {
 	text-decoration: none;
 }
 
+/* nav dropdown pet */
+.dropdown-pet {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-pet a {
+    display: block;
+}
+
+.dropdown-pet-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.1);
+    z-index: 1;
+}
+  
+.dropdown-pet-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-pet-content a:hover {
+    background-color: #B3C7F7;
+    color: #f9f9f9;
+}
+
+.dropdown-pet:hover .dropdown-pet-content {
+    display: block;
+}
+
+/* nav dropdown recipe */
+.dropdown-recipe {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-recipe a {
+    display: block;
+}
+
+.dropdown-recipe-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.1);
+    z-index: 1;
+}
+  
+.dropdown-recipe-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-recipe-content a:hover {
+    background-color: #B3C7F7;
+    color: #f9f9f9;
+}
+
+.dropdown-recipe:hover .dropdown-recipe-content {
+    display: block;
+}
+
+/* nav dropdown travel */
+.dropdown-travel {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-travel a {
+    display: block;
+}
+
+.dropdown-travel-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    right: 0;
+    min-width: 200px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.1);
+    z-index: 1;
+}
+  
+.dropdown-travel-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-travel-content a:hover {
+    background-color: #B3C7F7;
+    color: #f9f9f9;
+}
+
+.dropdown-travel:hover .dropdown-travel-content {
+    display: block;
+}
+
 /* menu */
 .menu ul {
     list-style-type: none;
@@ -189,7 +292,7 @@ li {
 
 .menu li:hover {
     background-color: #B3C7F7;
-    color: #000;
+    color: #fff;
 }
 
 /* pet grid */
